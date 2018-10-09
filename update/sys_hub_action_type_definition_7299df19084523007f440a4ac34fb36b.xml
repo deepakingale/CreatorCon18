@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get Sentiment score from the &lt;strong&gt;Text Analytics &lt;/strong&gt; API</description>
+        <internal_name>get_sentiment_score</internal_name>
+        <label_cache>[{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":""},{"name":"{{step[f8abe86a-e2fc-4f1b-ae10-1b2c595d8d72].u_subscription_key}}","label":"step➛REST step➛Subscription Key","type":"step","ref":""},{"name":"{{step[f8abe86a-e2fc-4f1b-ae10-1b2c595d8d72].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[28e7f7e9-67d6-4086-8826-9e2e46b15436].s}}","label":"step➛Script step➛s","type":"step","ref":""},{"name":"{{step[28e7f7e9-67d6-4086-8826-9e2e46b15436].sc}}","label":"step➛Script step➛sc","type":"step","ref":""},{"name":"{{step[28e7f7e9-67d6-4086-8826-9e2e46b15436].sco}}","label":"step➛Script step➛sco","type":"step","ref":""},{"name":"{{step[28e7f7e9-67d6-4086-8826-9e2e46b15436].scor}}","label":"step➛Script step➛scor","type":"step","ref":""},{"name":"{{step[28e7f7e9-67d6-4086-8826-9e2e46b15436].score}}","label":"step➛Script step➛score","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>45b6e75d084523007f440a4ac34fb3c3</latest_snapshot>
+        <master_snapshot>5db62b5d084523007f440a4ac34fb302</master_snapshot>
+        <name>Get Sentiment Score</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 00:42:05</sys_created_on>
+        <sys_id>7299df19084523007f440a4ac34fb36b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Sentiment Score</sys_name>
+        <sys_package display_value="Microsoft Text Analytics Spoke" source="x_snc_ms_txt_spoke">6f18dbd5084523007f440a4ac34fb30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Text Analytics Spoke">6f18dbd5084523007f440a4ac34fb30f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_7299df19084523007f440a4ac34fb36b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 01:39:21</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=7299df19084523007f440a4ac34fb36b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7299df19084523007f440a4ac34fb36b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7299df19084523007f440a4ac34fb36b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 01:33:06</sys_created_on>
+        <sys_id>5e45af1d084523007f440a4ac34fb304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 01:33:06</sys_updated_on>
+        <value/>
+        <variable display_value="">1a456f1d084523007f440a4ac34fb3fb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7299df19084523007f440a4ac34fb36b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>score</field>
+        <id>7299df19084523007f440a4ac34fb36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 01:33:06</sys_created_on>
+        <sys_id>da45af1d084523007f440a4ac34fb304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 01:33:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7299df19084523007f440a4ac34fb36b</table>
+        <value>{{step[28e7f7e9-67d6-4086-8826-9e2e46b15436].score}}</value>
+    </sys_element_mapping>
+</record_update>

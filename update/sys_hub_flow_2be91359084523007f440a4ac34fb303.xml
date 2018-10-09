@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_flow</internal_name>
+        <label_cache>[{"name":"f9fcea4b-99c7-4ce0-930f-71aa5683591e.task","label":"2➛task","reference":"task","reference_display":"task","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 00:43:30</sys_created_on>
+        <sys_id>2be91359084523007f440a4ac34fb303</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test Flow</sys_name>
+        <sys_package display_value="Microsoft Text Analytics Spoke" source="x_snc_ms_txt_spoke">6f18dbd5084523007f440a4ac34fb30f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Text Analytics Spoke">6f18dbd5084523007f440a4ac34fb30f</sys_scope>
+        <sys_update_name>sys_hub_flow_2be91359084523007f440a4ac34fb303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 01:35:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2be91359084523007f440a4ac34fb303"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2be91359084523007f440a4ac34fb303"/>
+</record_update>
